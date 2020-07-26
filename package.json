@@ -1,0 +1,20 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cucumber": "^6.0.5",
+    "cypress": "^4.11.0",
+    "cypress-cucumber-preprocessor": "^2.5.4"
+  },
+  "devDependencies": {},
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/integration/swaglabs-steps"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/cypress open"
+  },
+  "author": "",
+  "license": "ISC"
+}
